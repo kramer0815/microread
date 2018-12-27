@@ -2,7 +2,7 @@ package main
 
 import (
         "fmt"
-        "github.com/kramer0815/rss-reader"
+        "github.com/kramer0815/rss-reader/service"
 )
 
 var appName = "accountservice"
