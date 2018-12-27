@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"strconv"
 	"fmt"
-	"github.com/callistaenterprise/goblog/accountservice/model"
+	"github.com/github.com/kramer0815/rss-reader/service"
 )
 
 // GetRssFeed fetches a atom.xml and gets the headline by id
