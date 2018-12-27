@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/callistaenterprise/goblog/accountservice/model"
+	"github.com/kramer0815/rss-reader/model"
 	"os"
 	"github.com/gorilla/mux"
 	"github.com/SlyMarbo/rss"
