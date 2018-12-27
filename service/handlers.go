@@ -1,6 +1,7 @@
 package service
 
 import (
+	"github.com/callistaenterprise/goblog/accountservice/model"
 	"os"
 	"github.com/gorilla/mux"
 	"github.com/SlyMarbo/rss"
@@ -8,7 +9,6 @@ import (
 	"encoding/json"
 	"strconv"
 	"fmt"
-	"github.com/kramer0815/rss-reader/service"
 )
 
 // GetRssFeed fetches a atom.xml and gets the headline by id
