@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM golang:alpine
 RUN apk add git
 RUN go get -u -v github.com/kramer0815/microread
 RUN mkdir /app 
